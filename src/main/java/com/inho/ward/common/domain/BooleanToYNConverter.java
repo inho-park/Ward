@@ -1,9 +1,8 @@
 package com.inho.ward.common.domain;
 
+import jakarta.persistence.AttributeConverter;
+import jakarta.persistence.Converter;
 import lombok.extern.log4j.Log4j2;
-
-import javax.persistence.AttributeConverter;
-import javax.persistence.Converter;
 
 @Converter
 @Log4j2
