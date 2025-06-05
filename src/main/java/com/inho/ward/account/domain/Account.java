@@ -1,4 +1,4 @@
-package com.inho.ward.account;
+package com.inho.ward.account.domain;
 
 import com.inho.ward.user.domain.User;
 import jakarta.persistence.*;
