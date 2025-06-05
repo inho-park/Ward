@@ -8,6 +8,6 @@ import lombok.Data;
 public class AccountDTO {
     private String puuid;
     private String gameName;
-    private String tegLine;
+    private String tagLine;
     private Long userId;
 }

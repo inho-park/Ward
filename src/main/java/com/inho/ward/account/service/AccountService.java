@@ -10,7 +10,7 @@ public interface AccountService {
     default AccountDTO entityToDTO(Account account) {
         return AccountDTO.builder()
                 .gameName(account.getGameName())
-                .tegLine(account.getTegLine())
+                .tagLine(account.getTagLine())
                 .puuid(account.getPuuid())
                 .userId(account.getUser().getId())
                 .build();
@@ -19,7 +19,7 @@ public interface AccountService {
     default Account dtoToEntity(AccountDTO accountDTO, User user) {
         return Account.builder()
                 .gameName(accountDTO.getGameName())
-                .tegLine(accountDTO.getTegLine())
+                .tagLine(accountDTO.getTagLine())
                 .puuid(accountDTO.getPuuid())
                 .user(user)
                 .build();

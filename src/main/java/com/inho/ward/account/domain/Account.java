@@ -20,11 +20,11 @@ public class Account {
     @Column(unique = true, nullable = false)
     private String puuid;
 
-    @Column(unique = true, nullable = false)
+    @Column(nullable = false)
     private String gameName;
 
-    @Column(unique = true, nullable = false)
-    private String tegLine;
+    @Column(nullable = false)
+    private String tagLine;
 
     @OneToOne
     private User user;
