@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 @Builder
-public class PuuidDTO {
-    private String puuid;
+public class GetPuuidDTO {
+    private long userId;
     private String gameName;
     private String tagLine;
 }
